@@ -79,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="carousal-inner animate">
+                    <div class="carousal-inner">
                         <div class="carousal-text ct2">
                             Join the community of thousands of Investors, learn from the best, participate in community
                             events & become a better Investor!
@@ -90,7 +90,7 @@
                         </div>
                     </div>
 
-                    <div class="carousal-inner animate">
+                    <div class="carousal-inner ">
                         <div class="carousal-text ct3">
                             Manage your Portfolio conveniently with <b>Bithereum</b> mobile app for Android & iOS.
                         </div>
@@ -161,7 +161,7 @@
             </div>
 
             <div class="features">
-                <div class="feat animate">
+                <div class="feat ">
                     <div class="feat-img">
                         <img src="icons8-bitcoin-144.png">
                         <img src="icons8-ethereum-144.png">
@@ -171,7 +171,7 @@
                     </div>
 
                 </div>
-                <div class="feat animate">
+                <div class="feat ">
                     <div class="feat-img">
                         <img src="insurance.png">
                     </div>
@@ -179,7 +179,7 @@
                         Safe & Secure.
                     </div>
                 </div>
-                <div class="feat animate">
+                <div class="feat ">
                     <div class="feat-img">
                         <img src="discount.png">
                     </div>
@@ -286,27 +286,6 @@
 
     <script src="index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                $('.animate').each(function (i) {
-
-                    var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-                    var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                    if (bottom_of_window >= bottom_of_element) {
-                        $(this).animate({ 'opacity': '1' }, 400);
-                    }
-
-                });
-            });
-        });
-
-
-
-    </script>
-
 
 </body>
 
